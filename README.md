@@ -11,6 +11,10 @@
 * Button x2
 * Potentiometer
 * Joystick
+* LED
+* 220Ω resistor
+* 5 female/male wires
+* jumper wires
 
 ## Project Structure
 
@@ -50,7 +54,7 @@ In case the digits on the diagram are difficult to read, below is a list of each
 |Potentiometer|36|
 |Button 1|2|
 |Button 2|25|
-|LED|15|
+|LED (via resistor)|15|
 
 
 ## Recreation
