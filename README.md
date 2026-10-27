@@ -60,7 +60,7 @@ In case the digits on the diagram are difficult to read, below is a list of each
 ## Recreation
 These instructions assume that the user already has the Arduino IDE installed, Processing installed, and the required hardware components.
 
-1. Clone this repository by either clicking the download icon or with the url: ```https://github.com/grace-cai08/microdjcontroller.git```
+1. Clone this repository by either clicking the download icon or with `git clone https://github.com/grace-cai08/microdjcontroller.git`
 
 2. Assemble the components. (See the Fritzing diagram)
 
