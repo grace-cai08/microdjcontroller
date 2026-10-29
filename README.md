@@ -90,3 +90,16 @@ Below is a quick summary of what each component function is programmed to do:
     - LED light: lit when track is playing, blinking when track is looping.
 
 *note: Due to layout restrictions I decided to 'attach' the joystick to my breadboard at a 90° rotation in order for the wires not to overlap with other components on the board. So although it appears that I'm tilting the joystick y as I'm moving it vertically, I am actually moving the joystick x value. Sorry for the confusion!
+
+## Add your own tracks!
+
+If you want to try mixing your own tracks, follow these steps:
+
+1. Download your chosen tracks if you haven't already. Make sure they are in .mp3 format.
+2. Add them into the `controller/data` folder.
+3. In `controller.pde`, navigate to the section under the comment `//browse vars`. It should look like this:
+![](/media/codetochangetracklist.png)
+4. Replace `String[] files = {...}` with `String[] files = {"add your filename name here", "another one here", "etc"};` Remember the order!
+5. Replace `String[] titles = {...}` with your track names like in the previous step. Make sure the order directly matches the ordering for the files.
+6. Replace `float[] bpms` with the BPMs of your tracks. You can find the BPM of a track by either analyzing it in DJ/music software such as Rekordbox, or by looking it up.
+7. Re-run the sketch.
